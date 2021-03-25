@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                     <Header>
                         <Toolbar className={classes.header}>
                             <img src={logo} alt="Wanquery" />
-                            <div>
+                            <main>
                                 <Link
                                     className={classes.link}
                                     component="button"
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                                 >
                                     Contato
                                 </Link>
-                            </div>
+                            </main>
                         </Toolbar>
                     </Header>
                 </Container>

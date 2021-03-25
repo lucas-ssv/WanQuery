@@ -48,7 +48,6 @@ export const useStyles = makeStyles((theme: Theme) =>
             color: '#fff',
         },
         img: {
-            height: 400,
             maxWidth: 800,
             overflow: 'hidden',
             display: 'block',
@@ -57,9 +56,19 @@ export const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
-export const Header = styled.div`
+export const Header = styled.header`
+    main {
+        @media (max-width: 530px) {
+            display: none;
+        }
+    }
+
     img {
         width: 160px;
+
+        @media (max-width: 530px) {
+            margin: 0 auto;
+        }
     }
 `;
 
@@ -68,6 +77,10 @@ export const Banner = styled.div`
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')
         no-repeat;
+
+    @media (max-width: 530px) {
+        background-position: left;
+    }
 
     div {
         display: flex;
@@ -84,6 +97,10 @@ export const Banner = styled.div`
             font-weight: bold;
             color: #fff;
             text-align: center;
+
+            @media (max-width: 530px) {
+                font-size: 50px;
+            }
         }
 
         main {
@@ -99,6 +116,11 @@ export const Banner = styled.div`
                 width: 500px;
                 color: #fff;
                 text-align: center;
+
+                @media (max-width: 530px) {
+                    width: 300px;
+                    font-size: 16px;
+                }
             }
         }
     }
