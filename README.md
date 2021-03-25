@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# WanQuery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido para ser um site institucional, dado como o início do projeto interdisciplinar da faculdade. :smile: :rocket:
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 
-### `yarn start`
+Instalando as dependências e dependências de desenvolvimento para executar o sistema
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Executando aplicação back-end
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```sh
+$ cd WanQuery
+$ yarn
+$ yarn start
+```
 
-### `yarn test`
+### Plugins front-end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dependências utilizadas para o desenvolvimento.
 
-### `yarn build`
+| Dependencies                | devDependencies                  |
+| --------------------------- | -------------------------------- |
+| react                       | babel-plugin-root-import         |
+| react-icons                 | eslint                           |
+| react-router-dom            | eslint-config-prettier           |
+| @material-ui/core           | eslint-plugin-import             |
+| @material-ui/icons          | eslint-plugin-jsx-a11y           |
+| @testing-library/jest-dom   | eslint-plugin-prettier           |
+| @testing-library/react      | eslint-plugin-react              |
+| @testing-library/user-event | eslint-plugin-react-hooks        |
+| @types/jest                 | prettier                         |
+| react-dom                   | eslint-config-airbnb             |
+| react-scripts               | @types/react-router-dom          |
+| @types/node                 | @types/styled-components         |
+| styled-components           | @typescript-eslint/eslint-plugin |
+| @types/react                | @typescript-eslint/parser        |
+| @types/react-dom            |                                  |
+| typescript                  |                                  |
+| web-vitals                  |                                  |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### /
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home](https://user-images.githubusercontent.com/38146739/112531343-39d00400-8d86-11eb-9c08-2ee51cebdf80.png)
 
-### `yarn eject`
+![Home](https://user-images.githubusercontent.com/38146739/112531412-4f452e00-8d86-11eb-9171-260853e42faa.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Home](https://user-images.githubusercontent.com/38146739/112531453-58ce9600-8d86-11eb-9b0f-9fc07d460faa.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Todos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-   Write MORE Tests
+-   Add Night Mode
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+MIT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Free Software, Hell Yeah!**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[dill]: https://github.com/joemccann/dillinger
+[git-repo-url]: https://github.com/joemccann/dillinger.git
+[john gruber]: http://daringfireball.net
+[df1]: http://daringfireball.net/projects/markdown/
+[markdown-it]: https://github.com/markdown-it/markdown-it
+[ace editor]: http://ace.ajax.org
+[node.js]: http://nodejs.org
+[twitter bootstrap]: http://twitter.github.com/bootstrap/
+[jquery]: http://jquery.com
+[@tjholowaychuk]: http://twitter.com/tjholowaychuk
+[express]: http://expressjs.com
+[angularjs]: http://angularjs.org
+[gulp]: http://gulpjs.com
+[pldb]: https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md
+[plgh]: https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md
+[plgd]: https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md
+[plod]: https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md
+[plme]: https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md
+[plga]: https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md
